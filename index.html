@@ -1,12 +1,92 @@
 <!doctype html>
-
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title>Music History</title>
-</head>
-
-<body>
+   <head>
+      <meta charset="utf-8">
+      <title>Music History</title>
+      <link rel="stylesheet" type="text/css" href="style.css">
+   </head>
+   <header>
+      <div class="nav">
+         <ul>
+            <li><a href="#" class="selected">View Music</a></li>
+            <li>|</li>
+            <li><a href="#">Add Music</a></li>
+            <li>|</li>
+            <li><a href="#">Profile</a></li>
+         </ul>
+      </div>
+   </header>
+   <div class="filter">
+   <div class="filterforms">
+   <div class="songlength">
+      <label>Song Length:</label>
+      <input type="range" name="song-length" min="10" max="20" step="0.5" value="15">
+   </div>
+   <div class="artist">
+      <label>Artist:</label>
+      <select name="Artist" class="artistoptions">
+         <option value="options">Options</option>
+      </select>
+   </div>
+   <div class="album">
+      <label>Album:</label>
+      <select name="Album" class="albumoptions">
+         <option value="options">Options</option>
+      </select>
+   </div>
+   <div>
+    <label class="genrelabel">Genre:</label>
+      <div class="genre">
+         <ul class="genreleft">
+            <li><input type="checkbox" name="checkgenre" value="rock"> Rock</li>
+            <li><input type="checkbox" name="checkgenre" value="pop"> Pop</li>
+            <li><input type="checkbox" name="checkgenre" value="blues"> Blues</li>
+          </ul>
+          <ul class="genreright">
+            <li><input type="checkbox" name="checkgenre" value="classical"> Classical</li>
+            <li><input type="checkbox" name="checkgenre" value="jazz"> Jazz</li>
+            <li><input type="checkbox" name="checkgenre" value="hiphop"> Hip-Hop</li>
+          </ul>
+      </div>
+      <div class="filterbutton">
+         <input type="button" id="filter" value="Filter" width="20px" height="10px">
+      </div>
+    </div>
+   </div>
+  <div class="playlist">
+    <div class="song1">
+    <h2>Song Name</h2>
+    <ul>
+      <li>Artist Name</li>
+      <li>Album Name</li>
+      <li>Genre</li>
+    </ul>
+    </div>
+    <div class="song2">
+    <h2>Song Name</h2>
+    <ul>
+      <li>Artist Name</li>
+      <li>Album Name</li>
+      <li>Genre</li>
+    </ul>
+    </div>
+    <div class="song3">
+    <h2>Song Name</h2>
+    <ul>
+      <li>Artist Name</li>
+      <li>Album Name</li>
+      <li>Genre</li>
+    </ul>
+    </div>
+    <div class="song4">
+    <h2>Song Name</h2>
+    <ul>
+      <li>Artist Name</li>
+      <li>Album Name</li>
+      <li>Genre</li>
+    </ul>
+    </div>
+  </div>
 
 
 </body>

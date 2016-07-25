@@ -1,0 +1,141 @@
+body {
+  font-family: arial;
+  margin: 0 auto;
+  max-width: 80%;
+}
+
+header {
+  background-color: #FFB4B0;
+}
+
+.selected {
+  text-decoration: none;
+  color: black;
+}
+
+.nav {
+  display: block;
+}
+
+.nav ul {
+  padding-left: 10px;
+}
+
+.nav li {
+  list-style-type: none;
+  display: inline-block;
+  margin: 0px 1px;
+  padding: 5px;
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+header,
+.filterforms,
+.playlist {
+  border: 3px solid black;
+}
+
+.filterforms {
+  width:25%;
+  height: 60%;
+  float: left;
+  display: inline-block;
+  margin-top: 10px;
+  padding: auto;
+  background-color: #4DD7FA;
+}
+
+.playlist {
+  width:73%;
+  height: 60%;
+  float: right;
+  display: inline-block;
+  margin-top: 10px;
+  padding: auto;
+  background-color: #FEFAC0  ;
+}
+
+/*Inside Filter Box*/
+.songlength {
+  margin: 15px 0px 0px 15px;
+}
+
+.songlength input {
+  width: 60%;
+}
+.artist {
+  margin: 15px 0px 0px 15px;
+}
+
+.album {
+  margin: 15px 0px 15px 15px;
+}
+
+.artist select, option {
+  width: 85%;
+  margin: 0;
+}
+
+.album select, option {
+  width: 85%;
+  margin: 0px;
+}
+
+
+.genrelabel {
+  margin: 35px 0px 0px 15px;
+  padding-top: 100px;
+}
+/*.genre {
+  margin: 15px 0px 0px 15px;
+}
+*/
+.genreleft {
+  display: inline-block;
+  float: left;
+  list-style-type: none;
+  width: 30%;
+  padding: 0;
+  margin: 5px 0px 0px 15px;
+}
+
+.genreright {
+  display: inline-block;
+  float: left;
+  list-style-type: none;
+  width: 50%;
+  padding: 0;
+  margin: 5px 0px 0px 15px;
+}
+
+.filterbutton {
+  text-align: center;
+  padding: 10px;
+  clear: both;
+}
+
+.playlist {
+  color: #785616;
+}
+
+.playlist h2 {
+  clear: both;
+  margin: 10px 0px 0px 10px;
+}
+
+
+.playlist ul {
+  padding: 4px 0px 15px 0px;
+  /*margin: 4px 0px 15px 0px;*/
+}
+
+.playlist ul li {
+  display: inline-block;
+  float: left;
+  list-style-type: none;
+  padding: 0;
+  margin: 0px 0px 0px 15px;
+}
+
+
